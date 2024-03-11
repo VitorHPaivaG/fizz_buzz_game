@@ -13,9 +13,9 @@ namespace fizz_buzz_game
 
             int fizz = 3, buzz = 5, numbers, userInput;
 
-            Console.WriteLine("welcome to the fizzbuzz game, today we are using numbers between 1 to 15!");
+            Console.WriteLine("welcome to the fizzbuzz game!");
             Console.WriteLine("");
-            Console.Write("Now you can write which numbers from X to Y will be fizz, buzz or a Fizbuzz!!: ");
+            Console.Write("you can write which numbers from X to Y will be fizz, buzz or a Fizbuzz!!: ");
             userInput = Convert.ToInt32(Console.ReadLine());
 
             for (numbers = 1; numbers <= userInput; numbers++)
